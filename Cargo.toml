@@ -1,0 +1,10 @@
+[package]
+name = "packer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+glam = { git = "https://github.com/bitshifter/glam-rs.git" }
+glam-traits = { git = "https://github.com/Ababwa/glam-traits.git", branch = "latest_glam" }
+itertools = "0.12.1"
+num-traits = "0.2.18"
