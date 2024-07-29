@@ -1,4 +1,4 @@
-Attepts to pack rectangles into as small and square a space as possible by packing two opposing corners.
+Attempts to pack rectangles into as small and square a space as possible by packing two opposing corners.
 
 Works as follows:
 
