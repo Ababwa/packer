@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-glam = { git = "https://github.com/bitshifter/glam-rs.git" }
-glam-traits = { git = "https://github.com/Ababwa/glam-traits.git", branch = "latest_glam" }
-itertools = "0.12.1"
-num-traits = "0.2.18"
+glam = "0.30.3"
+glam-traits = "0.3.0"
+itertools = "0.14.0"
+num-traits = "0.2.19"

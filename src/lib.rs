@@ -1,6 +1,6 @@
 use std::cmp::{Ordering, Reverse};
-use glam::{I16Vec2, U16Vec2, IVec2, UVec2, I64Vec2, U64Vec2};
-use glam_traits::IntVec2;
+use glam::{I16Vec2, I64Vec2, I8Vec2, IVec2, U16Vec2, U64Vec2, U8Vec2, UVec2};
+use glam_traits::{BVec, IntVec2};
 use itertools::Itertools;
 use num_traits::{AsPrimitive, Zero};
 
@@ -66,6 +66,8 @@ macro_rules! pack_decl {
 	};
 }
 
+pack_decl!(pack_i8, i8, I8Vec2);
+pack_decl!(pack_u8, u8, U8Vec2);
 pack_decl!(pack_i16, i16, I16Vec2);
 pack_decl!(pack_u16, u16, U16Vec2);
 pack_decl!(pack_i32, i32, IVec2);
